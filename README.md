@@ -22,7 +22,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente de `<Java / dependência>`
+- Você instalou a versão mais recente de `<Java / dependência disponíveis em: pom.xml>`
 - Você tem uma máquina `<Windows>`
 - Você leu `<documentação_relacionada_ao_projeto>`
 
@@ -32,7 +32,7 @@ Para instalar o <Sentinela_Discord_Bot>, siga estas etapas:
 
 Clone o repositório 
 ```
-git https://github.com/natanPrs/fileReader.git
+git https://github.com/natanPrs/Sentinela-Discord-BOT.git
 ```
 
 ## 🤝 Colaboradores
