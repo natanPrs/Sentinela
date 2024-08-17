@@ -22,8 +22,8 @@ public class SentinelaApplication {
 	public static Map<Long, Character> prefixMap = new HashMap<>();
 
 	public static void main(String[] args) throws LoginException, InterruptedException {
-		//jda = JDABuilder.create(System.getenv("DISCORD_BOT_TOKEN"),
-				//EnumSet.allOf(GatewayIntent.class)).build(); I commented this part of the code because Github doesn't allow tokens
+		jda = JDABuilder.create(System.getenv("DISCORD_BOT_TOKEN"),
+				EnumSet.allOf(GatewayIntent.class)).build();
 
 		jda.addEventListener(new Ping());
 		jda.addEventListener(new MemberJoin());
